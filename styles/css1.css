@@ -151,7 +151,7 @@ header.scrolling .menu-link.active:hover {
 #services .container {
 	display: flex;
 	height: 80%;
-	width: 80%;
+	width: 100%;
 }
 
 .services-content {
@@ -160,17 +160,25 @@ header.scrolling .menu-link.active:hover {
 	align-items: center;
 	justify-content: space-around;
 	height: 100%;
+	width: 100%
 }
 
 .services-items {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
+	width: 80%;
+	
 }
 
 .item {
 	display: flex;
 	justify-content: space-between;
+	width: 28%;
+}
+
+.item img {
+	padding-bottom: 20px;
 }
 
 .services-title {
@@ -211,6 +219,7 @@ header.scrolling .menu-link.active:hover {
 	font-size: 14px;
 	line-height: 22px;
 	color: #999999;
+	max-width: 222px
 }
 
 .services-btn {
