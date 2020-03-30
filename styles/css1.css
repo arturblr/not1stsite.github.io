@@ -30,13 +30,14 @@ section {
 header.scrolling {
 	background: white;
 	box-shadow: 0 2px 20px 0 gray;
+	opacity: 0.5;
 	
 }
 
 /* Header */
 
 header {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #A1A1A1;
 	height: 100px;
 	position: fixed;
 	top: 0;
@@ -57,6 +58,7 @@ header .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	
 }
 
 .menu-link {
