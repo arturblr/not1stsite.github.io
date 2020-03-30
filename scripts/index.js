@@ -31,6 +31,13 @@ document.addEventListener("DOMContentLoaded", function(){
 	videoButton.addEventListener("click", setVideoPlay)
 	
 	
+	document.getElementsByTagName('video')[0].addEventListener('ended',myHandler,false);
+
+    function myHandler(e) {
+    videoButton.style.display = 'block';
+	videoElement.style.display = 'none';
+    }
+	
 	
 });
 
