@@ -682,3 +682,21 @@ input {
     letter-spacing: 1px;
 	display: none;
 }
+
+/* MEDIA */
+
+@media all and (max-width: 1200px) {
+	.container {
+		width: 90%;
+	}
+}
+
+@media all and (max-width: 900px) {
+	header .container {
+		justify-content: center;
+	}
+	
+	.menu {
+		width: 80%;
+	}
+}
