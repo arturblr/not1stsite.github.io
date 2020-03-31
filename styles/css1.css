@@ -7,7 +7,11 @@ body, p, div, a {
 	padding: 0;
 }
 
-.container {
+a, button {
+	cursor: pointer;
+}
+
+ .container {
 	margin: 0 auto;
 	width: 1200px;
 }
@@ -30,8 +34,7 @@ section {
 header.scrolling {
 	background: white;
 	box-shadow: 0 2px 20px 0 gray;
-	opacity: 0.5;
-	
+	opacity: 0.7;
 }
 
 /* Header */
@@ -77,11 +80,19 @@ header.scrolling .menu-link a {
 	color: black;
 }
 
-.menu-link.active:hover {
+.menu-link.activea:hover {
 	border-bottom: 2px solid white;
 }
 
-header.scrolling .menu-link.active:hover {
+.menu-link.active {
+	border-bottom: 2px solid white;
+}
+
+header.scrolling .menu-link.active {
+	border-bottom: 2px solid black;
+}
+
+header.scrolling .menu-link.activea:hover {
 	border-bottom: 2px solid black;
 }
 
@@ -576,5 +587,98 @@ video {
 	justify-content: center;
 }
 
+/* EMAIL */
 
+.email .container {
+	border-top: 1px solid #E0E0E0;
+	padding: 85px 0;
+}
 
+.email {
+	height: 50%;
+}
+
+.email .title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+.email .subtitle {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	color: #999999;
+	padding-bottom: 30px;
+}
+
+.email-footer {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: center;
+	color: #999999;
+}
+
+.email-content {
+	margin: auto auto 35px;
+	width: 490px;
+	display: flex;
+	justify-content: center;
+	border-radius: 30px;
+	border: 1px solid #F2F2F2;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	position: relative;
+}
+
+input {
+	background: none;
+    padding: 15px 33px 13px;
+    border: 1px solid #F2F2F2;
+	width: 60%;
+	border-radius: 30px 0px 0px 30px;
+}
+
+::placeholder {
+    font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	color: #999999;
+}
+
+.email-content button {
+	background: #4985FF;
+	border: 1px solid #4985FF;
+	padding: 15px 36px 13px 26px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 0px 30px 30px 0px;
+	width: 40%;
+}
+
+.error {
+	position: absolute;
+	left: 33px;
+	bottom: -20px;
+	color: red;
+    font-weight: 600;
+    letter-spacing: 1px;
+	display: none;
+}
