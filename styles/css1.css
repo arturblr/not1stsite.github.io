@@ -683,6 +683,84 @@ input {
 	display: none;
 }
 
+/* FOOTER */
+
+footer {
+	background: #F6F6F8;
+}
+
+footer .container {
+	display: flex;
+	height: 50vh;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.titles {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+}
+
+.titles h3 {
+	min-width: 255px;
+}
+
+.subtitles {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	color: #999999;
+}
+
+.rights {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: center;
+	color: #999999;
+}
+
+.img-sub {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.img-sub a {
+	text-align: start;
+	padding-left: 15px;
+}
+
+.contacts {
+	display: flex;
+	height: 100px;
+	width: 255px;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.links, .socials, .our-projects {
+	display: flex;
+	height: 160px;
+	width: 255px;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
 /* MEDIA */
 
 @media all and (max-width: 1200px) {
