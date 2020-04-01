@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
 	// flow scroll
 	
 	
-	const links = document.querySelectorAll('header a[href*="#"]');
+	const links = document.querySelectorAll('a[href*="#"]');
 	
 	  function cleanActiveLinks() {
         const parentsLinks = document.getElementsByClassName("menu-link");
